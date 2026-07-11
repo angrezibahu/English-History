@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>A History of England</title>
+    <meta name="description" content="An audio-led survey of English history. Read the notes, listen offline." />
+
+    <meta name="theme-color" content="#4f46e5" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1e1b3a" media="(prefers-color-scheme: dark)" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="History" />
+
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/favicon-32.png" />
+    <link rel="apple-touch-icon" href="./assets/icons/apple-touch-icon.png" />
+    <link rel="stylesheet" href="./assets/css/app.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="app-bar">
+      <a class="app-bar__home" href="#/" aria-label="Course home">
+        <img class="app-bar__logo" src="./assets/icons/favicon-32.png" width="24" height="24" alt="" />
+        <span class="app-bar__title" data-course-title>History</span>
+      </a>
+      <div class="app-bar__actions">
+        <button type="button" class="btn btn--ghost" data-install hidden>Install</button>
+      </div>
+    </header>
+
+    <main id="main" class="container" tabindex="-1">
+      <div class="loading" data-app-loading>Loading course…</div>
+    </main>
+
+    <footer class="app-footer">
+      <span data-offline-badge class="offline-badge" hidden>Offline</span>
+      <span class="app-footer__note">Works offline · your progress stays on this device</span>
+    </footer>
+
+    <script src="./assets/js/markdown.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
