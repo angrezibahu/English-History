@@ -36,9 +36,10 @@ Then regenerate the index:
 npm run build:index      # writes course/index.json
 ```
 
-The GitHub Actions workflow runs `npm run build` on every push to `main`, so the
-deployed site always matches the committed content. `course/index.json` is also
-committed so the site works even without running the build.
+The GitHub Actions workflow runs `npm run build` on every push to the default
+branch, so the deployed site always matches the committed content.
+`course/index.json` is also committed so the site works even without running the
+build.
 
 ## Local development
 
@@ -51,8 +52,8 @@ GitHub Pages — opening `index.html` from `file://` will not work.
 
 ## Deployment
 
-1. Push to the default branch (`main`).
-2. In the repo, **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+1. In the repo, **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+2. Push to the repository's default branch.
 3. The `Deploy PWA to GitHub Pages` workflow builds icons + the course index and
    publishes the site.
 
