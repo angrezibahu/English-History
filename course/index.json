@@ -1,0 +1,72 @@
+{
+  "title": "A History of England",
+  "description": "An audio-led survey of English history, from the Roman withdrawal to the modern age. Read each week's notes, then listen to the lecture — online or offline.",
+  "generatedAt": "2026-07-11T20:14:44.374Z",
+  "terms": [
+    {
+      "id": "term-1",
+      "number": 1,
+      "title": "Term 1",
+      "slug": "term-1",
+      "weeks": [
+        {
+          "id": "term-1/week-01",
+          "term": 1,
+          "number": 1,
+          "slug": "week-01",
+          "title": "Week 1 — After Rome: Britain in the 5th Century",
+          "path": "course/term-1/week-01",
+          "docs": [
+            "notes.md",
+            "glossary.md"
+          ],
+          "audio": "lecture.wav"
+        },
+        {
+          "id": "term-1/week-02",
+          "term": 1,
+          "number": 2,
+          "slug": "week-02",
+          "title": "Week 2 — The Anglo-Saxon Kingdoms",
+          "path": "course/term-1/week-02",
+          "docs": [
+            "notes.md"
+          ],
+          "audio": "lecture.wav"
+        },
+        {
+          "id": "term-1/week-03",
+          "term": 1,
+          "number": 3,
+          "slug": "week-03",
+          "title": "Week 3 — The Viking Age",
+          "path": "course/term-1/week-03",
+          "docs": [
+            "notes.md"
+          ],
+          "audio": "lecture.wav"
+        }
+      ]
+    },
+    {
+      "id": "term-2",
+      "number": 2,
+      "title": "Term 2",
+      "slug": "term-2",
+      "weeks": [
+        {
+          "id": "term-2/week-01",
+          "term": 2,
+          "number": 1,
+          "slug": "week-01",
+          "title": "Week 1 — 1066 and the Norman Conquest",
+          "path": "course/term-2/week-01",
+          "docs": [
+            "notes.md"
+          ],
+          "audio": "lecture.wav"
+        }
+      ]
+    }
+  ]
+}
